@@ -357,14 +357,14 @@ i:before {
   width: 213px;
   height: 1px;
   position: absolute;
-  background: #ced0e0;
+  background: #000000;
   left: 0px;
   bottom: 0px;
 }
 
 .banner_inner_text h2 {
   font-size: 100px;
-  color: #ffffff;
+  color: #000000;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
 }
