@@ -4,6 +4,36 @@
   margin-right: 8.33333333%;
 }
 
+svg {
+  display:block;
+  width:258px;
+  height:258px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+
+.tree {
+  fill: #E73E0D;
+}
+
+.circle-mask {
+  transform-origin: 50% 90%;
+  animation: scale 5s infinite ease-out;
+}
+
+@keyframes scale {
+  0%, 100% {
+    transform: scale(0.0);
+  }
+  7%, 90% {
+    transform: scale(0.4);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 ul {
@@ -645,8 +675,8 @@ i:before {
 
 .team_people_text p {
   font-family: "Roboto", sans-serif;
-  color: #7c8d93;
-  font-size: 15px;
+  color: #000000;
+  font-size: 35px;
   line-height: 28px;
   font-weight: 500;
   padding-bottom: 45px;
@@ -665,8 +695,8 @@ i:before {
 .team_people_text ul li a {
   padding-left: 18px;
   font-family: "Roboto", sans-serif;
-  color: #7c8d93;
-  font-size: 15px;
+  color: #000000;
+  font-size: 20px;
   line-height: 28px;
   font-weight: 500;
   position: relative;
@@ -701,7 +731,7 @@ i:before {
 }
 
 .team_people_text ul li:hover a {
-  color: #a6d7ff;
+  color: #5ab2fa;
 }
 
 .team_people_text ul li:hover a:before {
@@ -743,9 +773,9 @@ i:before {
 }
 
 .challange_text_inner p {
-  font-size: 15px;
+  font-size: 35px;
   line-height: 28px;
-  color: #7c8d93;
+  color: #000000;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   padding-right: 25px;
@@ -784,8 +814,8 @@ i:before {
 /* We Are Company Area css
 ============================================================================================ */
 .left_company_text p {
-  font-size: 15px;
-  color: #7c8d93;
+  font-size: 55px;
+  color: #000000;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   padding-right: 20px;
@@ -799,7 +829,7 @@ i:before {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   line-height: 28px;
-  color: #7c8d93;
+  color: #000000;
   font-weight: 500;
   padding-bottom: 70px;
 }
@@ -811,7 +841,7 @@ i:before {
 .our_skill_inner .single_skill h3 {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
-  color: #7c8d93;
+  color: #000000;
   font-weight: 500;
   padding-bottom: 12px;
 }
