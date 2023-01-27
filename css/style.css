@@ -14,9 +14,6 @@ svg {
   transform:translate(-50%,-50%);
 }
 
-.tree {
-  fill: #E73E0D;
-}
 
 .circle-mask {
   transform-origin: 50% 90%;
@@ -384,7 +381,7 @@ i:before {
 /* Slider css
 ============================================================================================ */
 .main_slider_area {
-  background: url(https://wordpress-ukr.s3.eu-central-1.amazonaws.com/wp-content/uploads/2022/02/23102511/oemeaeo-1.png) no-repeat scroll center center;
+  background: url(../img/oemeaeo-1-min.png) no-repeat scroll center center;
   background-size: cover;
 }
 
